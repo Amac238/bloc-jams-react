@@ -88,12 +88,12 @@ class Album extends Component {
                                 onMouseLeave={() => this.handleMouseLeave()}
                                 onClick={() => this.handleSongClick(song)} >
                                 <td>{this.hoverIcon(song, index)}</td> 
-                               {/*      <button>
+                               {      <button>
                                         <span className="songNumber">{index+1}</span>
                                         <span className="ion-play"></span>
                                         <span className="ion-pause"></span>
                                     </button>
-                                </td>  */}
+                                  }
                                 <td className="song-title">{song.title}</td>
                                 <td className="song-duration">{song.duration}</td>
                             </tr>
