@@ -53,14 +53,38 @@
         font: bold;
     }
 
+    #album-wrapper img {
+        width: 300px;
+        height: 300px;
+    }
+
     #album-wrapper {
         margin: 0 auto;
-        width: 1200px;
+        width: 600px;
     }
 
     .albums{
         float: left;
-        width: 600px;
+        width: 300px;
+    }
+
+    #song-list {
+        margin: 0 auto;
+        text-align: center;
+        padding: 100px;
+    }
+
+    #wrap{
+        display: inline-block;
+        width: 1120px;
+    }
+
+    #wrap img {
+        float: left;
+    }
+
+    .album-details {
+        text-align: center;
     }
 
     
