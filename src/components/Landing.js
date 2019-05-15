@@ -3,7 +3,7 @@ import React from 'react';
 const Landing = () => (
   <section className="landing">
          <h1 className="hero-title">Turn the music up!</h1>
-    
+    <div id='points'>
     <section className="selling-points">
       <div className="point">
         <h2 className="point-title">Choose your music</h2>
@@ -18,6 +18,7 @@ const Landing = () => (
         <p className="point-description">Listen to your music on the go. This streaming service is available on all mobile platforms.</p>
       </div>
     </section>
+    </div>
   </section>
 );
 
